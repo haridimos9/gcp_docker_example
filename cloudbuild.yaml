@@ -1,5 +1,5 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/docker-instance/testing', '.']
+  args: ['build', '-t', 'gcr.io/prismatic-petal-374308/docker-instance', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/docker-instance/testing']
+  args: ['push', 'gcr.io/prismatic-petal-374308/docker-instance']
