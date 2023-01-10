@@ -1,7 +1,7 @@
 from sklearn import datasets, svm, metrics
 from sklearn.model_selection import train_test_split
 
-#just a comment
+#just a comment to check
 if __name__ == '__main__':
     digits = datasets.load_digits()
 
